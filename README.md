@@ -29,7 +29,7 @@ Switch between 1st-person and dynamically scaled 3rd-person camera views while p
 ### Configuration
 
 - **In-Game Keybind**: Open **Settings → Controls** and look for **Ship Camera Perspective** to rebind the toggle key.
-- **Config File**: Stored in `MainSequenceShipQoL/config.json` under `"ShipPerspectiveKey"`.
+- **Config File**: Stored in `ElvenidesShipQoL/config.json` under `"ShipPerspectiveKey"`.
 
 ## Ship Instant Zero Throttle
 
@@ -44,7 +44,7 @@ Smoothly and rapidly cut your spaceship's acceleration/throttle to exact `0` wit
 ### Configuration
 
 - **In-Game Keybind**: Open **Settings → Controls** and look for **Ship Zero Throttle** to rebind the key.
-- **Config File**: Stored in `MainSequenceShipQoL/config.json` under `"ShipZeroThrottleKey"`.
+- **Config File**: Stored in `ElvenidesShipQoL/config.json` under `"ShipZeroThrottleKey"`.
 
 ## Credits
 

@@ -24,7 +24,7 @@ Choose either **MSCoreManager** (recommended) or **Manual UE4SS Installation** b
    - Paste in `https://github.com/Elvenide/MainSequenceShipQoL` to install automatically from GitHub Releases (MSCoreManager uses `manifest.txt` and **$(System.Collections.Hashtable.ZipBase)-v<version>.zip**).
    - *(Alternatively, if installing from a local archive in MSCoreManager, download **$(System.Collections.Hashtable.ZipBase)-v<version>.zip** from [github.com/Elvenide/MainSequenceShipQoL/releases](https://github.com/Elvenide/MainSequenceShipQoL/releases).)*
 3. **Launch Main Sequence**:
-   - **Elvenide's Ship QoL** will automatically create/update `MainSequenceShipQoL\config.json` with default keybinds on first launch.
+   - **Elvenide's Ship QoL** will automatically create/update `ElvenidesShipQoL\config.json` with default keybinds on first launch.
    - Open **Settings → Controls** at any time to rebind hotkeys.
 
 ### Option 2: Manual UE4SS Installation
@@ -44,24 +44,24 @@ Choose either **MSCoreManager** (recommended) or **Manual UE4SS Installation** b
      ```
 2. **Install Elvenide's Ship QoL**:
    - Download **$(System.Collections.Hashtable.ZipBase)-v<version>.zip** from [github.com/Elvenide/MainSequenceShipQoL/releases](https://github.com/Elvenide/MainSequenceShipQoL/releases).
-   - Open the zip, navigate into its `Mods\` folder, and copy the `MainSequenceShipQoL` folder into:
+   - Open the zip, navigate into its `Mods\` folder, and copy the `ElvenidesShipQoL` folder into:
      ```
-     Main Sequence\Windows\MainSequence\Binaries\Win64\ue4ss\Mods\MainSequenceShipQoL\
+     Main Sequence\Windows\MainSequence\Binaries\Win64\ue4ss\Mods\ElvenidesShipQoL\
      ```
-     *(You can safely leave `mscore.mod` inside `MainSequenceShipQoL\`—UE4SS ignores it.)*
-   - Ensure `MainSequenceShipQoL\enabled.txt` exists (an empty file is fine).
-   - Open `ue4ss\Mods\mods.txt` and add `MainSequenceShipQoL : 1` **above** `Keybinds : 1`:
+     *(You can safely leave `mscore.mod` inside `ElvenidesShipQoL\`—UE4SS ignores it.)*
+   - Ensure `ElvenidesShipQoL\enabled.txt` exists (an empty file is fine).
+   - Open `ue4ss\Mods\mods.txt` and add `ElvenidesShipQoL : 1` **above** `Keybinds : 1`:
      ```ini
-     MainSequenceShipQoL : 1
+     ElvenidesShipQoL : 1
 
      ; Built-in keybinds, do not move up!
      Keybinds : 1
      ```
 3. **Launch Main Sequence**:
-   - **Elvenide's Ship QoL** will automatically create/update `MainSequenceShipQoL\config.json` with default keybinds on first launch.
+   - **Elvenide's Ship QoL** will automatically create/update `ElvenidesShipQoL\config.json` with default keybinds on first launch.
    - Open **Settings → Controls** at any time to rebind hotkeys.
 
 ## Uninstalling
 
-- Remove or rename `MainSequenceShipQoL\enabled.txt` (or delete the `MainSequenceShipQoL` folder and remove `MainSequenceShipQoL : 1` from `mods.txt`).
+- Remove or rename `ElvenidesShipQoL\enabled.txt` (or delete the `ElvenidesShipQoL` folder and remove `ElvenidesShipQoL : 1` from `mods.txt`).
 - Your saves remain completely intact with no missing-mod dependencies.
